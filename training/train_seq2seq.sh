@@ -8,7 +8,7 @@ do
         x) method=${OPTARG};;
     esac
 done
-python3 run_translation.py \
+python run_translation.py \
     --model_name_or_path facebook/bart-base \
     --do_train \
     --do_predict \
